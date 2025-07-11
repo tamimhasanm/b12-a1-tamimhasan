@@ -1,35 +1,46 @@
 
-.inter-font{
+.inter-bold{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
   font-style: normal;
 }
+
+
+
 img.company-logo{
     height: 50px;
     width: 50px;
-  }
+}
 
 .nav-header{
-    height: 900px;
+    height: 750px;
     width: none;
-    border: 10px;
-    justify-content: space-between;
     background-image: url("/Assets/Hero-bg.png");
-    }
+}
 
 .nav-header1{
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px ;
+  border: none;
+}
+
+ul li{
+  list-style: none;
+}
+
+.company-name{
+  font-weight: 700;
+  font-size: 35px;
+  color: #4E47FF;
 }
 
 .signup-btn{
-  background-color: #4E47FF;
-  height: 48px;
-  width: 132px;
-  font-size: 20px;
   color: aliceblue;
-  border-radius: 12px;
-  
-
-  
+  width: 135px;
+  height: 50px;
+  background-color: #4E47FF;
+  border-radius: 14px;
 }
+
