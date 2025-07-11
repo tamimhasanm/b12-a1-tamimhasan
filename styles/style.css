@@ -8,7 +8,8 @@
 img.company-logo{
     height: 50px;
     width: 50px;
-}
+  }
+
 .nav-header{
     height: 900px;
     width: none;
@@ -16,9 +17,16 @@ img.company-logo{
     border: 10px;
     justify-content: space-between;
     background-image: url("/Assets/Hero-bg.png");
-    
-}
+    }
 
-.signup{
+.signup-btn{
+  background-color: #4E47FF;
+  height: 48px;
+  width: 132px;
+  font-size: 20px;
+  color: aliceblue;
+  border-radius: 12px;
+  
+
   
 }
