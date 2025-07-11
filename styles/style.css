@@ -13,11 +13,14 @@ img.company-logo{
 .nav-header{
     height: 900px;
     width: none;
-    display: flex;
     border: 10px;
     justify-content: space-between;
     background-image: url("/Assets/Hero-bg.png");
     }
+
+.nav-header1{
+  display: flex;
+}
 
 .signup-btn{
   background-color: #4E47FF;
