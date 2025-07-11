@@ -1,0 +1,20 @@
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+img.company-logo{
+    height: 50px;
+    width: 50px;
+}
+.nav-header{
+    height: 900px;
+    width: none;
+    display: flex;
+    border: 10px solid red;
+    justify-content: space-between;
+    background-image: url("/Assets/Hero-bg.png");
+    
+}
