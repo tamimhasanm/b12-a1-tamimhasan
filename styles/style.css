@@ -13,8 +13,12 @@ img.company-logo{
     height: 900px;
     width: none;
     display: flex;
-    border: 10px solid red;
+    border: 10px;
     justify-content: space-between;
     background-image: url("/Assets/Hero-bg.png");
     
+}
+
+.signup{
+  
 }
