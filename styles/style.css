@@ -209,6 +209,7 @@ img.reviewer{
 }
 
 .focus-btn{
+  
   color: aliceblue;
   width: 200px;
   height: 50px;
@@ -217,6 +218,9 @@ img.reviewer{
   background-color: #4E47FF;
   border-radius: 10px;
   margin: 10px 0px 10px 0px;
+}
+.focus-btn-nav a:hover {
+  color: #6460a8;
 }
 
 .focus-img{
@@ -229,4 +233,152 @@ img.reviewer{
   flex-direction: column;
   align-items: center;
 
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.contact{
+  color: #252432;
+  height: 800px;
+  width: none;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 90px 120px 90px 120px;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f6f8ff;
+  color: #111;
+}
+
+.contact-container {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 4rem 2rem;
+min-height: 100vh;
+}
+
+.left {
+flex: 1;
+padding: 2rem;
+}
+
+.left h1 {
+text-align: left ;
+font-size: 50px;
+font-weight: 700;
+line-height: 1.2;
+}
+
+.right {
+flex: 1;
+padding: 2rem;
+background-color: #f6f8ff;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-bottom: 0.5rem;
+font-size: 0.95rem;
+}
+
+input,textarea {
+padding: 0.75rem;
+font-size: 1rem;
+border: 1px solid #ddd;
+border-radius: 6px;
+margin-bottom: 1.5rem;
+outline: none;
+}
+
+input:focus, textarea:focus {
+border-color: #4f46e5;
+}
+
+textarea {
+resize: vertical;
+min-height: 100px;
+}
+
+.submit-btn {
+background-color: #4f46e5;
+color: white;
+font-weight: 600;
+padding: 0.9rem;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+background-color: #4338ca;
+}
+
+@media (max-width: 768px) {
+.contact-container {
+flex-direction: column;
+text-align: center;
+}
+.left,
+.right { 
+width: 100%;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+  border: 2px dashed #4f46e5;
+  border-radius:  25px;
+  color: #4f46e5;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  color: #666;
+  font-size: 0.95rem;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+  line-height: 1.5;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-nav a {
+  color: #444;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.footer-nav a:hover {
+  color: #4f46e5;
 }
