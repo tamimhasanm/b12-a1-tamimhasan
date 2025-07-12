@@ -7,32 +7,32 @@
 
 
 
-img.company-logo{
-    height: 50px;
-    width: 50px;
-}
-
 .nav-header{
-    height: 750px;
+    height: 900px;
     width: none;
     background-image: url("/Assets/Hero-bg.png");
 }
 
 .nav-header1{
   display: flex;
+  width: none;
+  height: 200px;
   align-items: center;
   justify-content: space-between;
-  padding: 15px 30px ;
-  border: none;
+  margin: 0 120px 0 120px;
+  border: 30px;
+  
+  
 }
 
 ul li{
   list-style: none;
 }
 
+
 .company-name{
   font-weight: 700;
-  font-size: 35px;
+  font-size: 30px;
   color: #4E47FF;
 }
 
@@ -44,3 +44,53 @@ ul li{
   border-radius: 14px;
 }
 
+.nav-header2{
+  text-align: center;
+  font-weight: 300;
+  font-size: 70px;
+  margin-top: 300px;
+}
+
+.stf-btn{
+  color: aliceblue;
+  width: 150px;
+  height: 50px;
+  font-weight: 300;
+  background-color: #4E47FF;
+  border-radius: 10px;
+}
+
+.action{
+  display: flex;
+  margin: 90px 120px 90px 120px;
+  justify-content: space-between;
+  align-items: center;
+}
+.action-h2{
+  font-weight: 600;
+  font-size: 40px;
+  margin: 10px 0px 10px 0px;
+}
+
+.action-p{
+  color: #252432;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.action-btn{
+  color: aliceblue;
+  width: 200px;
+  height: 50px;
+  font-weight: 300;
+  font-size: medium;
+  background-color: #4E47FF;
+  border-radius: 10px;
+  margin: 10px 0px 10px 0px;
+
+}
+img.right-action{
+  border-radius: 40px;
+  width: 420px;
+}
