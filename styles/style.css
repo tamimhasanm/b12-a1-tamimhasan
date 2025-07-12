@@ -95,27 +95,42 @@ img.right-action{
   width: 420px;
 }
 
-.users-activity{
+
+
+.overall-user-info{
+  background-color: #4d47ff1f;
   color: #252432;
-  height: 350px;
+  height: 400px;
   width: none;
   box-sizing: border-box;
-  background-color: #4d47ff1f;
   border-radius: 20px;
   margin: 90px 120px 90px 120px;
-  
-}
+  padding: 40px 20px;
+  }
 
 .users-heading{
+  text-align: center;
   font-weight: 600;
   font-size: 40px;
-  text-align: center;
-  margin: auto;
-}
-.users-number{
-  display: flex;
+  color: #1e1e20;
+  margin-bottom: 30px;
 }
 
-.users-vat{
+.users-container{
   display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.users-overview h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #4E47FF;
+}
+
+
+.users-overview p{
+  font-size: 13px;
+  color: #0000006b;
 }
