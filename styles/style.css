@@ -73,7 +73,7 @@ ul li{
 }
 
 .action-p{
-  color: #252432;
+  color: #25243277;
   font-weight: 300;
   font-size: 20px;
   margin: 10px 0px 10px 0px;
@@ -93,4 +93,29 @@ ul li{
 img.right-action{
   border-radius: 40px;
   width: 420px;
+}
+
+.users-activity{
+  color: #252432;
+  height: 350px;
+  width: none;
+  box-sizing: border-box;
+  background-color: #4d47ff1f;
+  border-radius: 20px;
+  margin: 90px 120px 90px 120px;
+  
+}
+
+.users-heading{
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin: auto;
+}
+.users-number{
+  display: flex;
+}
+
+.users-vat{
+  display: flex;
 }
